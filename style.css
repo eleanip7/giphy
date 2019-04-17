@@ -1,0 +1,25 @@
+body {
+    background-color: salmon;
+}
+
+button,div,form,input {
+    margin: 10px;
+ }
+
+
+ button:hover {
+     background-color: teal;
+     font-weight:bold;
+    }
+img {
+    border: 5px dotted black;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    text-align: center;
+}
