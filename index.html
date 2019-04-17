@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../giphy/app.js"></script>
+    <title>Shows</title>
+    
+    <style type="text/css">
+        button,
+        div,
+        form,
+        input {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Pick a show</h1>
+
+
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="show-form">
+        <label for="show-input">Think of a show</label>
+        <input type="text" id="show-input">
+        <br>
+
+        <!-- Button triggers new movie to be added -->
+        <input id="add-show" type="submit" value="Pin this show!">
+    </form>
+
+    <!-- Movies will Get Dumped Here -->
+    <div id="shows-view"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+</body>
+
+</html>
